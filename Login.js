@@ -120,7 +120,9 @@ export default function Login() {
   );
   const redirectUri = makeRedirectUri({
     scheme: "myapp",
-    path: "http://localhost:8081",
+    // path: "http://localhost:8081",
+    path: "http://35.160.252.112:8081",
+
   });
   const clientId = "99aedfde-1004-4f0d-8bb8-000ed0093190";
 
